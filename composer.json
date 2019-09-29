@@ -1,0 +1,19 @@
+{
+    "name": "leifermendez/laravel-sabadell-paycomet",
+    "description": "Component diseñado para integrarse con el paycomet de Banco Sabadell",
+    "authors": [
+        {
+            "name": "Leifer Mendez",
+            "email": "leifer33@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "leifermendez\\sabadell\\": "src/"
+        }
+    },
+    "require": {
+        "ext-soap": "*",
+        "ext-json": "*"
+    }
+}
